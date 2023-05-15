@@ -5,9 +5,9 @@ import nav_logo from "../assets/img/nav_logo.webp";
 import hero from "../assets/img/hero.webp";
 import hero_back from "../assets/img/hero_back.png";
 const Hero = () => {
-  const [first, setfirst] = useState(true);
+  const [first, setFirst] = useState(true);
   function clickshow() {
-    setfirst(!first);
+    setFirst(!first);
   }
   if (!first) {
     document.body.classList.add("overflow-hidden");
@@ -244,5 +244,4 @@ const Hero = () => {
     </header>
   );
 };
-
 export default Hero;

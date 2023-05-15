@@ -96,7 +96,6 @@ const WorkingArrey = () => {
       },
     ],
   };
-
   return (
     <section className="bg_black py-5">
       <div className="container_my py-5">
@@ -128,7 +127,7 @@ const WorkingArrey = () => {
                       <p className="clr_white fs_19 fw_400 ff_Helvetica">
                         {val.disc}
                       </p>
-                      <p className="clr_white fs_12 fw_400 ff_Helvetica Learn_btn mt-4 pointer position-absolute asfg">
+                      <p className="clr_white fs_12 fw_400 ff_Helvetica Learn_btn mt-4 pointer position-absolute padding_bottom">
                         {val.btn}
                         <span className="ms-3">
                           <svg
@@ -162,7 +161,6 @@ const WorkingArrey = () => {
           })}
         </Slider>
       </div>
-      <Row></Row>
     </section>
   );
 };

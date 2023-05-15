@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import solana from "../assets/img/solana.webp";
-
 const Source = () => {
   return (
     <section className="bg_black py-5 background">
@@ -65,7 +64,7 @@ const Source = () => {
           <Col
             lg={6}
             xs={12}
-          className="mt-4 ps-4"
+            className="mt-4 ps-4"
             data-aos="fade-down"
             data-aos-duration="1500"
           >
@@ -169,5 +168,4 @@ const Source = () => {
     </section>
   );
 };
-
 export default Source;

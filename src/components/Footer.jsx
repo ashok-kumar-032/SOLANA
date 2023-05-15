@@ -1,7 +1,5 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import hero_back from "../assets/img/hero_back.png";
-
 const Footer = () => {
   return (
     <section className="bg_black ">

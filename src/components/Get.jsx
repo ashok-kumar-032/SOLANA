@@ -1,6 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
-
 const Get = () => {
   return (
     <section className="bg_black pt-5 ">
@@ -66,5 +64,4 @@ const Get = () => {
     </section>
   );
 };
-
 export default Get;

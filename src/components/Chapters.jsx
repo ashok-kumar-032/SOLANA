@@ -5,9 +5,8 @@ import img_3 from "../assets/img/img_3.webp";
 import img_4 from "../assets/img/img_4.webp";
 import img_5 from "../assets/img/img_5.webp";
 import img_6 from "../assets/img/img_6.webp";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import Slider from "react-slick";
-
 const myData = [
   {
     id: 1,
@@ -147,5 +146,4 @@ const Chapters = () => {
     </section>
   );
 };
-
 export default Chapters;

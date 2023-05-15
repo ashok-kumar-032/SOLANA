@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Breakpoint from "./components/Breakpoint";
@@ -20,7 +19,7 @@ import { useAccordionButton } from "react-bootstrap";
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ once: true, disable: "mobile" });
   }, []);
   return (
     <div className=" overflow-hidden">

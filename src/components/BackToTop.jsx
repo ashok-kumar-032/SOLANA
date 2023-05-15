@@ -24,12 +24,6 @@ const BackToTop = () => {
             alt="top"
           />
         ) : (
-          //   <button
-          //     onClick={moveToTop}
-          //     className="btn btn-primary position-fixed bottom-0 end-0 me-4 mb-4"
-          //   >
-          //     top
-          //   </button>
           ""
         )}
         <div></div>

@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-
+import { Row, Col } from "react-bootstrap";
 const Developer = () => {
   return (
     <section className="bg_black py-5">

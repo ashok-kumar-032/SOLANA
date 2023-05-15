@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
 import logo from "../assets/img/hero.webp";
-
 const Loading = () => {
   setTimeout(() => {
     document.getElementById("none").classList.add("d-none");
     document.body.classList.remove("overflow-hidden");
   }, 3000);
-
   return (
     <div
       id="none"
@@ -18,5 +16,4 @@ const Loading = () => {
     </div>
   );
 };
-
 export default Loading;

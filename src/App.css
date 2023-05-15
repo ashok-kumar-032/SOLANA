@@ -5,7 +5,6 @@
   text-decoration: none !important;
   list-style: none !important;
   scroll-behavior: smooth !important;
-
 }
 
 .container_my {
@@ -25,7 +24,6 @@
 .top {
   animation: star 2.8s linear infinite;
   z-index: 10;
-
 }
 
 @keyframes star {
@@ -51,24 +49,21 @@
 
 .bg_effect {
   opacity: 1;
-  background:white;
+  background: white;
   z-index: 8 !important;
 }
 
 @keyframes preloaderimg {
   0% {
     transform: scale(1);
-
   }
 
   0% {
     transform: scale(1);
-
   }
 
   100% {
     transform: scale(1.5);
-
   }
 }
 
@@ -82,7 +77,7 @@
 }
 
 .z-7 {
-  z-index:7 ;
+  z-index: 7;
 }
 
 .pointer {
@@ -90,7 +85,6 @@
 }
 
 /* hero */
-
 .builders_max_w {
   max-width: 400px;
 }
@@ -191,7 +185,6 @@
   background: rgba(255, 255, 255, 0.5);
   height: 2px;
 }
-
 
 .View_btn {
   border: 1px solid #FFFFFF;
@@ -343,10 +336,8 @@
   }
 
   .regular {
-
     display: flex;
     flex-wrap: wrap;
-
   }
 }
 
@@ -395,10 +386,10 @@
     position: fixed;
     height: 104vh;
     opacity: 1;
-      background: #632c65;
-      background: -moz-linear-gradient(-45deg, #632c65 15%, #56a5e2 100%);
-      background: -webkit-linear-gradient(-45deg, #632c65 15%, #56a5e2 100%);
-      background: linear-gradient(135deg, #632c65 15%, #56a5e2 100%);
+    background: #632c65;
+    background: -moz-linear-gradient(-45deg, #632c65 15%, #56a5e2 100%);
+    background: -webkit-linear-gradient(-45deg, #632c65 15%, #56a5e2 100%);
+    background: linear-gradient(135deg, #632c65 15%, #56a5e2 100%);
     transition: all 1s linear;
     left: -100%;
     width: 100%;
@@ -435,7 +426,6 @@
 }
 
 @media (min-width:567px) {
-
   .input_clr {
     background: #0A0A0A;
     border-radius: 800px;
@@ -454,13 +444,11 @@
   .logo_width {
     width: 45% !important;
   }
-
 }
 
-.asfg {
+.padding_bottom {
   bottom: 15px;
 }
-
 
 .slick-track {
   display: flex !important;
